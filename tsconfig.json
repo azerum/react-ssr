@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "verbatimModuleSyntax": true,
+
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "module": "ES2020",
+        "target": "ESNext",
+
+        // So we get errors when `React` is imported
+        "jsx": "react",
+
+        "typeRoots": ["./dev/types"]
+    }
+}
